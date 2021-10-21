@@ -65,11 +65,12 @@
     "siteUrl": "https://thegenz.org",
     "sitemapSwitcherAuto": "on",
     "favicon": false,
-    "mbrsiteDomain": "fhqzcowjvy",
+    "mbrsiteDomain": "hjgm3vynb6",
     "robotsSwitcher": false,
     "cookiesAlert": false,
     "gdpr": false,
-    "global_header_custom": "<meta name=”description” content=”Hello! I am Ishan Vepa, a Highschool student in Tallahassee, Florida. I have an avid interest in technology and computer science, but also pursue creative passions such as video production and music. I have produced multiple documentaries and collaborated on community impact projects with my youth initiative, Generation Z Media. I have also played in numerous honors ensembles ranging from jazz to classical symphonic orchestras throughout my Highschool career.”>\n",
+    "global_header_custom": "<meta name=\"description\" content=\"Hello! I am Ishan Vepa, a Highschool student in Tallahassee, Florida. I have an avid interest in technology and computer science, but also pursue creative passions such as video production and music. I have produced multiple documentaries and collaborated on community impact projects with my youth initiative, Generation Z Media. I have also played in numerous honors ensembles ranging from jazz to classical symphonic orchestras throughout my Highschool career.\">\n  <meta name=\"keywords\" content=\"Ishan, Vepa, Gen Z Media, Music, Saxophone\">\n  <meta name=\"author\" content=\"Ishan Vepa\">",
+    "global_after_body": "",
     "publishChangesOnly": true
   },
   "pages": {
@@ -465,7 +466,7 @@
         },
         {
           "_name": "header4",
-          "_customHTML": "<section class=\"header4\" group=\"Headers\" mbr-class=\"{'mbr-fullscreen': fullScreen}\">\n\n\t<mbr-parameters>\n\t\t\t<header>Size</header>\n\t\t\t<input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n\t\t\t<input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n\t\t\t<input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n\t\t\t<input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"3\" condition=\"fullScreen == false\">\n\t\t\t\t\t\t<input type=\"range\" inline title=\"Block position\" name=\"blockPos\" min=\"0\" max=\"10\" step=\"1\" value=\"3\" condition=\"fullScreen == false\">\n\t\t\t<header>Show/Hide</header>\n\t\t\t<input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n            <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n\t\t\t<input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\">\n\t\t\t<header>Background</header>\n            <input type=\"color\" title=\"Title background\" name=\"titleBackground\" value=\"#879a9f\">\n\t\t\t\t\t\t<fieldset type=\"background\" name=\"bg\">\n\t\t\t\t\t<input type=\"color\" title=\"Color\" value=\"#ffffff\">\n                    <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/dots.svg\" selected>\n\t\t\t</fieldset>\n            <input type=\"checkbox\" title=\"Pattern\" name=\"pattern\" condition=\"bg.type !== 'color'\" checked>\n\t\t\t<input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n\t\t\t<input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#465052\" condition=\"overlay && bg.type !== 'color'\">\n\t\t\t<input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.9\" condition=\"overlay && bg.type !== 'color'\">\n\t</mbr-parameters>\n\n\t<div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n\t<div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n\t\t\t<div class=\"f-row\">\n\t\t\t\t\t\n\t\t\t\t\t<div class=\"f-item z-100\">\n\t\t\t\t\t\t\t<div class=\"text-wrapper text-center\">\n\t\t\t\t\t\t\t\t\t<h1 class=\"mbr-section-title mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">About Me</h1>\n                                <p class=\"mbr-text mbr-fonts-style\" mbr-if=\"showText\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">Hello! I am Ishan Vepa, a Highschool student in Tallahassee, Florida. I have an avid interest in technology and computer science, but also pursue creative passions such as video production and music. I have produced multiple documentaries and collaborated on community impact projects with my youth initiative, <a href=\"https://thegenz.org\" class=\"text-info\" target=\"_blank\">Generation Z Media</a>. I have also played in numerous honors ensembles ranging from jazz to classical symphonic orchestras throughout my Highschool career.  <br></p>\n\t\t\t\t\t\t\t\t\t<div mbr-buttons mbr-theme-style=\"display-7\" class=\"mbr-section-btn mt-3\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-black-outline\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">Get Started</a></div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n                <div class=\"f-item image-wrapper\">\n\t\t\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/face5-h-kpsn0po6-1-2000x1253.jpeg\" alt=\"Ishan Vepa portrait\">\n\t\t\t\t\t</div>\n\t\t\t</div>\n\t</div>\n</section>",
+          "_customHTML": "<section class=\"header4\" group=\"Headers\" mbr-class=\"{'mbr-fullscreen': fullScreen}\">\n\n\t<mbr-parameters>\n\t\t\t<header>Size</header>\n\t\t\t<input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n\t\t\t<input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n\t\t\t<input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"4\" condition=\"fullScreen == false\">\n\t\t\t<input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"3\" condition=\"fullScreen == false\">\n\t\t\t\t\t\t<input type=\"range\" inline title=\"Block position\" name=\"blockPos\" min=\"0\" max=\"10\" step=\"1\" value=\"3\" condition=\"fullScreen == false\">\n\t\t\t<header>Show/Hide</header>\n\t\t\t<input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n            <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n\t\t\t<input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\">\n\t\t\t<header>Background</header>\n            <input type=\"color\" title=\"Title background\" name=\"titleBackground\" value=\"#879a9f\">\n\t\t\t\t\t\t<fieldset type=\"background\" name=\"bg\">\n\t\t\t\t\t<input type=\"color\" title=\"Color\" value=\"#ffffff\">\n                    <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/dots.svg\" selected>\n\t\t\t</fieldset>\n            <input type=\"checkbox\" title=\"Pattern\" name=\"pattern\" condition=\"bg.type !== 'color'\" checked>\n\t\t\t<input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n\t\t\t<input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#465052\" condition=\"overlay && bg.type !== 'color'\">\n\t\t\t<input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.9\" condition=\"overlay && bg.type !== 'color'\">\n\t</mbr-parameters>\n\n\t<div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n\t<div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n\t\t\t<div class=\"f-row\">\n\t\t\t\t\t\n\t\t\t\t\t<div class=\"f-item z-100\">\n\t\t\t\t\t\t\t<div class=\"text-wrapper text-center\">\n\t\t\t\t\t\t\t\t\t<h1 class=\"mbr-section-title mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">About Me</h1>\n                                <p class=\"mbr-text mbr-fonts-style\" mbr-if=\"showText\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">Hello! I am Ishan Vepa, a Highschool student in Tallahassee, Florida. I have an avid interest in technology and computer science, but also pursue creative passions such as video production and music. I have produced multiple documentaries and collaborated on community impact projects with my youth initiative, <a href=\"https://thegenz.org\" class=\"text-info\" target=\"_blank\">Generation Z Media</a>. I have also played in numerous honors ensembles ranging from jazz to classical symphonic orchestras throughout my Highschool career.  <br></p>\n\t\t\t\t\t\t\t\t\t<div mbr-buttons mbr-theme-style=\"display-7\" class=\"mbr-section-btn mt-3\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-black-outline\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">Get Started</a></div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n                <div class=\"f-item image-wrapper\">\n\t\t\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/face5-h-kpsn0po6-3-2000x1253.jpeg\" alt=\"Ishan Vepa portrait\">\n\t\t\t\t\t</div>\n\t\t\t</div>\n\t</div>\n</section>",
           "_styles": {
             "& when not (@fullScreen)": {
               "padding-top": "(@paddingTop * 1rem)",
@@ -790,7 +791,7 @@
             "gallery": [
               {
                 "tags": "Video Projects",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2021912-958172021-9-2-10-31-47.jpg",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2021920-2029522021-9-3-22-19-29.jpg",
                 "playVideo": true,
                 "videoUrl": "https://www.youtube.com/watch?v=FtzDRtF36e4",
                 "image": "@PROJECT_PATH@/assets/images/gallery00.jpeg",
@@ -799,7 +800,7 @@
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "Voting Rights Act Documentary",
-                "active": false
+                "active": true
               },
               {
                 "tags": "Video Projects",
@@ -829,7 +830,7 @@
               },
               {
                 "tags": "Video Projects",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2021912-958172021-9-2-10-33-58.jpg",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2021920-2029522021-9-3-22-14-54.jpg",
                 "playVideo": true,
                 "videoUrl": "https://www.youtube.com/watch?v=Aqalbtz_Lug",
                 "image": "@PROJECT_PATH@/assets/images/gallery03.jpg",
@@ -916,7 +917,7 @@
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "Edmund Pettus Bridge<br> Selma, AL",
-                "active": true
+                "active": false
               }
             ]
           }

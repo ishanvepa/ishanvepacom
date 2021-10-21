@@ -950,7 +950,7 @@ section.lazy-placeholder:after {
   }
 }
 .cid-sMlccuDqoY {
-  padding-top: 5rem;
+  padding-top: 4rem;
   padding-bottom: 3rem;
   background-image: url("../../../assets/images/dots.svg");
   background-repeat: repeat;
@@ -958,13 +958,13 @@ section.lazy-placeholder:after {
 }
 @media (max-width: 1000px) {
   .cid-sMlccuDqoY {
-    padding-top: 2.5rem;
+    padding-top: 2rem;
     padding-bottom: 1.5rem;
   }
 }
 @media (max-width: 768px) {
   .cid-sMlccuDqoY {
-    padding-top: 1.5rem;
+    padding-top: 1.2rem;
     padding-bottom: 0.9rem;
   }
 }
